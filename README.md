@@ -14,7 +14,7 @@ Installation si nécessaire :
 
 sudo apt install gcc-avr avr-libc avrdude gtkterm
 
-## Compilation et programmation
+## Compilation
 
 Pour compiler et flasher le programme :
 

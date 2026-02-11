@@ -4,6 +4,16 @@
 - TX : PB4 (pin 3) → RX du XBee-USB
 - GND ATTiny → GND du XBee-USB
 
+## Outils nécessaires
+
+ - avr-gcc
+ - avrdude
+ - gtkterm
+
+Installation si nécessaire :
+
+sudo apt install gcc-avr avr-libc avrdude gtkterm
+
 ## Compilation et programmation
 
 Pour compiler et flasher le programme :
@@ -17,6 +27,7 @@ make clean
 ## Réception côté PC
 
 Configurer le terminal série avec :
+- Port : /dev/ttyACM0
 - 300 bauds
 - 8 bits
 - pas de parité

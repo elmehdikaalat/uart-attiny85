@@ -1,7 +1,6 @@
 ## Configuration matérielle
 
 - Microcontrôleur : ATTiny85
-- Fréquence : 1 MHz (horloge interne)
 - TX : PB4 (pin 3) → RX du XBee-USB
 - GND ATTiny → GND du XBee-USB
 

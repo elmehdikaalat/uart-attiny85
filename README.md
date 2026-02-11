@@ -33,4 +33,10 @@ Configurer le terminal série avec :
 - pas de parité
 - 1 bit de stop
 
+Si accès refusé au port série, ajouter l'utilisateur au groupe dialout :
+
+sudo usermod -aG dialout $USER
+
+Puis se déconnecter et se reconnecter.
+
 Le message "coucou" s’affiche chaque seconde.
